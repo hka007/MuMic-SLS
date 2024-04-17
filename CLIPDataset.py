@@ -15,9 +15,6 @@ def parse_string_to_tensor(s):
     return tensor
 
 
-
-
-
 def selective_language_supervision(batch_size, alpha=3):
     num_classes = batch_size.size()[0]
     selected_labels = torch.zeros_like(batch_size)

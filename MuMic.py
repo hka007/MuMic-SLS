@@ -1,11 +1,6 @@
-import random
-import time
-
 from torch.nn import BCEWithLogitsLoss
 
 from ImageEncoder import ImageEncoder
-from MuMicADDS import DualModalDecoder
-from ProjectionHead import ProjectionHead
 from config import CFG
 
 from TextEncoder import TextEncoder
